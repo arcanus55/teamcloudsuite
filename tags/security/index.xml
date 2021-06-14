@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Team Cloud Suite</title>
+    <link>https://www.TeamCloudSuite.com/tags/security/</link>
+    <description>Recent content in Security on Team Cloud Suite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 May 2021 19:08:29 -0500</lastBuildDate><atom:link href="https://www.TeamCloudSuite.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security</title>
+      <link>https://www.TeamCloudSuite.com/docs/security/</link>
+      <pubDate>Fri, 28 May 2021 19:08:29 -0500</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/docs/security/</guid>
+      <description>Team Cloud Suite Security</description>
+    </item>
+    
+  </channel>
+</rss>

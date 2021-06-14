@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Main on Team Cloud Suite</title>
+    <link>https://www.TeamCloudSuite.com/categories/main/</link>
+    <description>Recent content in Main on Team Cloud Suite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 May 2021 19:08:49 -0500</lastBuildDate><atom:link href="https://www.TeamCloudSuite.com/categories/main/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HIPPA Compliance</title>
+      <link>https://www.TeamCloudSuite.com/docs/hippa/</link>
+      <pubDate>Fri, 28 May 2021 19:08:49 -0500</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/docs/hippa/</guid>
+      <description>Team Cloud Suite HIPPA Compliance</description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://www.TeamCloudSuite.com/docs/security/</link>
+      <pubDate>Fri, 28 May 2021 19:08:29 -0500</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/docs/security/</guid>
+      <description>Team Cloud Suite Security</description>
+    </item>
+    
+    <item>
+      <title>Cloud Partner</title>
+      <link>https://www.TeamCloudSuite.com/docs/cloud-partner/</link>
+      <pubDate>Fri, 28 May 2021 19:08:15 -0500</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/docs/cloud-partner/</guid>
+      <description>Team Cloud Suite Cloud Partner</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://www.TeamCloudSuite.com/docs/faq/</link>
+      <pubDate>Fri, 28 May 2021 19:03:32 -0500</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/docs/faq/</guid>
+      <description>Team Cloud Suite FAQ</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://www.TeamCloudSuite.com/docs/introduction/</link>
+      <pubDate>Fri, 28 May 2021 19:02:49 -0500</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/docs/introduction/</guid>
+      <description>How Team Cloud Suite works and why choose us</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.TeamCloudSuite.com/comingsoon/home/</link>
+      <pubDate>Thu, 18 Mar 2021 22:39:33 -0500</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/comingsoon/home/</guid>
+      <description>Team Cloud Suite Coming Soon</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>https://www.TeamCloudSuite.com/contact/</link>
+      <pubDate>Thu, 18 Mar 2021 22:39:33 -0500</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/contact/</guid>
+      <description>Contact Team Cloud Suite</description>
+    </item>
+    
+    <item>
+      <title>Migration Tool</title>
+      <link>https://www.TeamCloudSuite.com/migration/</link>
+      <pubDate>Thu, 18 Mar 2021 22:39:06 -0500</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/migration/</guid>
+      <description>Team Cloud Suite Migration Tool</description>
+    </item>
+    
+    <item>
+      <title>User Benefits</title>
+      <link>https://www.TeamCloudSuite.com/benefits/</link>
+      <pubDate>Thu, 18 Mar 2021 22:39:06 -0500</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/benefits/</guid>
+      <description>Team Cloud Suite Features</description>
+    </item>
+    
+    <item>
+      <title>Faq</title>
+      <link>https://www.TeamCloudSuite.com/knowledge-base/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/knowledge-base/</guid>
+      <description>Frequently Asked Questions</description>
+    </item>
+    
+  </channel>
+</rss>
