@@ -1,8 +1,17 @@
 body { background: #FFFAFA;
         margin: 0;
-
 }
-.brand-text { color: #50655e; }
+.brand-text { color: #DD4326; }
+body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #DD4326; 
+}
+body::-webkit-scrollbar-track {
+    background: #323232;
+}
 
 :root {
     --wp-dark-mode-bg: #1b2836;
@@ -295,7 +304,7 @@ div.caro-target__js:not(.h--select) {
 .l-sydtab {
     display: block;
     margin: 2px auto;
-    background: #fff;
+    background: #FFFAFA;
     width: 100%;
 }
 .l-sydtab > article {
@@ -320,7 +329,7 @@ div.caro-target__js:not(.h--select) {
     width: 64px;
 }
 .l-sydtab button h6 {
-    color: #484848;
+    color: #fff;
     margin: 2px; padding: 6px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -328,7 +337,7 @@ div.caro-target__js:not(.h--select) {
     line-height: 1.5;
 }
 .l-sydtab button:hover h6 {
-    color: #222;
+    color: #fff;
 }
 .l-sydtab button picture {
     display: block;
@@ -341,11 +350,12 @@ div.caro-target__js:not(.h--select) {
     border: solid 3px #dedede;
 }
 .l-sydtab [data-sydtab-state='true'] {
-    background-color: #fff;
+    background-color: #DD4326;
 }
 .l-sydtab [data-sydtab-state='true'] picture {
     border: solid 3px #DD4326 !important;
 }
+
 .l-sydtab .cont__mobile--hidden {
     display: none;
 }
@@ -355,13 +365,13 @@ div.caro-target__js:not(.h--select) {
         display: grid;
         grid-template-columns: 40% 60%;
         margin: 0 auto;
-        background: #fff;
+        background: #FFFAFA;
         width: 100%;
     }
     .l-sydtab > article {
         display: block;
         border-radius: 4px;
-        margin: 6px; padding: 6px;
+        margin: 4px 16px; padding: 6px;
     }
     .l-sydtab button {
         cursor: pointer;
@@ -370,7 +380,7 @@ div.caro-target__js:not(.h--select) {
         align-items: center;
         border: solid 1px #fff; border-radius: 16px 0 0 16px;
         font-size: 1.1em;
-        background-color: #FFFAFA;
+        background-color: #a57069;
         margin: 4px; padding: 2px;
         width: 100%; height: 100px;
         user-select: none;
@@ -428,14 +438,22 @@ div.caro-target__js:not(.h--select) {
 
 /* Single Hero Carousel begin */
 .l-shc {
-    margin: 12px auto;
-    width: 46%;
+    display: none;
 }
-.l-shc .shc-cell{
-    min-height: 450px;
-}
-.l-shc .shc-cell img{
-    width: 800px 
+@media only screen and (min-width:48.1em)
+{ /* medium */ /* large */
+    .l-shc {
+        display: block;
+        margin: 12px auto;
+        width: 46%;
+    }
+    .l-shc .shc-cell{
+        width: 100%;
+        min-height: 450px;
+    }
+    .l-shc .shc-cell img{
+        width: 100%; height: auto;
+    }
 }
 /* Single Hero Carousel end */
 
@@ -696,7 +714,7 @@ section.pfmf-grid > div > article.pfmf-grid__artc--hero {
 
 .megamenu .megamenu__grd--card .mm__link--card {
     height: 50vw;
-    color: #DD4326;
+    color: #FFFAFA;
 
     display: block;
     cursor: pointer;
@@ -741,13 +759,13 @@ section.pfmf-grid > div > article.pfmf-grid__artc--hero {
     box-sizing: border-box;
 }
 
-.megamenu .megamenu__grd--card A:nth-of-type(1) { background-color: #DECDBF; }
-.megamenu .megamenu__grd--card A:nth-of-type(2) { background-color: #DECDBF; }
-.megamenu .megamenu__grd--card A:nth-of-type(3) { background-color: #DECDBF; }
-.megamenu .megamenu__grd--card A:nth-of-type(4) { background-color: #DECDBF; }
-.megamenu .megamenu__grd--card A:nth-of-type(5) { background-color: #DECDBF; }
-.megamenu .megamenu__grd--card A:nth-of-type(6) { background-color: #DECDBF; }
-.megamenu .megamenu__grd--card A:nth-of-type(7) { background-color: #DECDBF; }
+.megamenu .megamenu__grd--card A:nth-of-type(1) { background-color: #484848; }
+.megamenu .megamenu__grd--card A:nth-of-type(2) { background-color: #484848; }
+.megamenu .megamenu__grd--card A:nth-of-type(3) { background-color: #484848; }
+.megamenu .megamenu__grd--card A:nth-of-type(4) { background-color: #484848; }
+.megamenu .megamenu__grd--card A:nth-of-type(5) { background-color: #484848; }
+.megamenu .megamenu__grd--card A:nth-of-type(6) { background-color: #484848; }
+.megamenu .megamenu__grd--card A:nth-of-type(7) { background-color: #484848; }
 .mm__link--top:link, .mm__link--top:visited, .mm__link--top:hover, .mm__link--top:focus, .mm__link--top:active,
 .mm__link--card:link, .mm__link--card:visited, .mm__link--card:hover, .mm__link--card:focus, .mm__link--card:active,
 .mm__link--bottom:link, .mm__link--bottom:visited, .mm__link--bottom:hover, .mm__link--bottom:focus, .mm__link--bottom:active
