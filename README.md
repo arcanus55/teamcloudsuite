@@ -1,7 +1,3 @@
-[![License: BSD](https://badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
-# interactive_resume
-Interactive Resume
-
 http://www.thescottkrause.com/
 
 "Do not go gentle into that good night."
