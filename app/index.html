@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>emailreplytime</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"><link href="css/chunk-3826e0e3.975d3f6e.css" rel="prefetch"><link href="js/chunk-2d0c11d2.259c3bf9.js" rel="prefetch"><link href="js/chunk-2d0cb6f5.38c23e06.js" rel="prefetch"><link href="js/chunk-2d0de2f1.34158927.js" rel="prefetch"><link href="js/chunk-2d0e9cf4.c117bcb2.js" rel="prefetch"><link href="js/chunk-3826e0e3.ed3da731.js" rel="prefetch"><link href="css/chunk-vendors.dfa25085.css" rel="preload" as="style"><link href="js/app.0a4ab5ea.js" rel="preload" as="script"><link href="js/chunk-vendors.b3daea10.js" rel="preload" as="script"><link href="css/chunk-vendors.dfa25085.css" rel="stylesheet"></head><body><div id="app"></div><script>// vue singleton   https://jsbin.com/pemugaketi/1/edit?html,js,output
+  let vGM = ( ( _d ) =>{
+    let oGMLParam = null; nInit = 0;
+    return {
+      "vinit": ( gml )=>{
+        oGMLParam = gml;
+        return gapi;
+      },
+      "init": ()=>{
+console.log("-------- init");
+        setTimeout(()=>{
+          if(++nInit === 2) { gapi.load( "client:auth2", vGM.initClient ); }
+        },3000);
+      },
+      "initClient": () => { 
+  console.log("___ ___ ___ ___ 1");
+        gapi.client.init({
+          "apiKey": oGMLParam.API_KEY,
+          "clientId": oGMLParam.CLIENT_ID,
+          "discoveryDocs": oGMLParam.DISCOVERY_DOCS,
+          "scope": oGMLParam.SCOPES
+        }).then(function () {
+          gapi.auth2.getAuthInstance().isSignedIn.listen(vGM.updateSigninStatus);
+          vGM.updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+  console.log("___ ___ ___ ___ 2");
+        }, function(error) {
+          console.warn(JSON.stringify(error));
+        });
+       },
+      "updateSigninStatus": (isSignedIn) => {
+  console.log("___ ___ ___ ___ 3");
+        if (isSignedIn){ 
+          document.querySelector("DIV#inspire").__vue__.__proto__.gapi = gapi
+
+         }
+      }
+    };
+  });</script><script src="js/chunk-vendors.b3daea10.js"></script><script src="js/app.0a4ab5ea.js"></script></body></html>
