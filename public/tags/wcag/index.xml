@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WCAG on Team Cloud Suite</title>
+    <link>https://www.TeamCloudSuite.com/tags/wcag/</link>
+    <description>Recent content in WCAG on Team Cloud Suite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Dec 2020 20:26:54 -0600</lastBuildDate><atom:link href="https://www.TeamCloudSuite.com/tags/wcag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eCommerce Accessibility A11y</title>
+      <link>https://www.TeamCloudSuite.com/blog/ecommerce-accessibility-a11y/</link>
+      <pubDate>Mon, 07 Dec 2020 20:26:54 -0600</pubDate>
+      
+      <guid>https://www.TeamCloudSuite.com/blog/ecommerce-accessibility-a11y/</guid>
+      <description>Accessibility Challenges Unique to eCommerce</description>
+    </item>
+    
+  </channel>
+</rss>
