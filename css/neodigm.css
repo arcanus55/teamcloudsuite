@@ -640,7 +640,7 @@ section.pfmf-grid > div > article.pfmf-grid__artc--hero {
 }
 /* Pan Fried Monkey Fisticufs grid end */
 
-/* megamenu begin */
+/* megamenu begin */ 
 .megamenu {
     background-color: #fff;
     padding: 0; margin: 0;
@@ -653,6 +653,7 @@ section.pfmf-grid > div > article.pfmf-grid__artc--hero {
 .megamenu[data-expand-state='false'] .megamenu__grd--card,
 .megamenu[data-expand-state='true']  .mm__vect--open,
 .megamenu[data-expand-state='false'] .mm__vect--close { display: none;}
+
 .megamenu[data-expand-state='false'] .mm__vect--open,
 .megamenu[data-expand-state='true']  .mm__vect--close { display: inline;}
 .megamenu[data-expand-state='true']  .megamenu__grd--top { box-shadow: none !important;}
@@ -663,18 +664,22 @@ section.pfmf-grid > div > article.pfmf-grid__artc--hero {
 .megamenu .megamenu__grd--top {
     position: fixed; top: 0;
     background-color: #DD4326;
-    height: 56px; width: 100%;
+    height: 112px; width: 100%;
 
     display: grid;
     grid-area: box-content;
     align-content: center;
     grid-gap: 4px;
   
-    grid-template-columns: 52px 1fr 212px;
+    grid-template-columns: 52px 1fr;
   
     box-sizing: border-box;
     box-shadow: 0px 2px 6px -2px rgba(164,164,164,0.6);
     z-index: 64;
+}
+.megamenu .megamenu__grd-top-btn {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 .megamenu__grd--top a span svg {
     visibility: hidden;
@@ -780,7 +785,7 @@ section.pfmf-grid > div > article.pfmf-grid__artc--hero {
 }
 .mm-btn {
     cursor: pointer;
-    display: block;
+    display: inline;
     margin: 6px; padding: 2px 12px;
     border-radius: 4px;
     border: solid 1px #FFFAFA;
@@ -795,6 +800,20 @@ section.pfmf-grid > div > article.pfmf-grid__artc--hero {
     background-color: #FFFAFA;
     color: #DD4326;
     margin-right: 16px;
+}
+@media only screen and (min-width:48.1em) {/* med lg */
+    .megamenu .megamenu__grd--top {
+        height: 56px; width: 100%;
+        grid-template-columns: 52px 1fr 212px;
+    }
+    .megamenu .megamenu__grd-top-btn {
+        display: flex;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+    .megamenu .mm-btn {
+        QQQQdisplay: block;
+    }
 }
 @media only screen and (min-width:48.1em) and (max-width:62em){/* med */
     .megamenu .megamenu__grd--bottom {
@@ -819,7 +838,7 @@ section.pfmf-grid > div > article.pfmf-grid__artc--hero {
     }
     
 }
-/* megamenu end */
+/* megamenu end */ 
 
 /* Tiers Partial | Features Begin */
 .tiers-artc li {
