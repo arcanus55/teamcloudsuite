@@ -440,23 +440,56 @@ div.caro-target__js:not(.h--select) {
 .l-shc {
     display: none;
 }
+.l-shc--50{
+    max-height: 250px;
+}
+.l-shc--50 .shc-cell{
+    width: 100%; max-height: 250px;
+}
+
+.l-shc--50 .shc-cell img{
+    width: 100%; max-height: 250px;
+}
 @media only screen and (min-width:48.1em)
 { /* medium */ /* large */
-    .l-shc {
+    .l-shc, .l-shc--50 {
         display: block;
         margin: 12px auto;
+    }
+    .l-shc{
         width: 46%;
     }
-    .l-shc .shc-cell{
+    .l-shc     .shc-cell{
         width: 100%;
+    }
+    .l-shc     .shc-cell img{
+        width: 100%; height: auto;
         min-height: 450px;
     }
-    .l-shc .shc-cell img{
+    .l-shc--50 {
+        width: 100%;
+        min-height: 720px;
+    }
+    .l-shc--50 .shc-cell{
+        width: 100%;
+    }
+    .l-shc--50 .shc-cell img{
         width: 100%; height: auto;
+        min-height: 720px;
     }
 }
 /* Single Hero Carousel end */
-
+/* brand svg begin */
+.l-brand-svgs svg {
+    width: 32%;
+}
+@media only screen and (min-width:48.1em)
+{ /* medium */ /* large */
+    .l-brand-svgs svg {
+        width: 176px;
+    }
+}
+/* brand svg end */
 /*  Blog Content Card Begin  */
     .l-blog-crd {
         margin: 6px 4px; padding: 4px;
@@ -810,9 +843,6 @@ section.pfmf-grid > div > article.pfmf-grid__artc--hero {
         display: flex;
         grid-column-start: 3;
         grid-column-end: 3;
-    }
-    .megamenu .mm-btn {
-        QQQQdisplay: block;
     }
 }
 @media only screen and (min-width:48.1em) and (max-width:62em){/* med */
