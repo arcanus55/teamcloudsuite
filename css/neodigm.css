@@ -604,15 +604,10 @@ background-color: rgba(255, 255, 255, 0);
 }
 section.pfmf-grid > div > article.pfmf-grid__artc--hero {
 margin: 2px -8px -32px;
-background-color: rgba(255, 255, 255, 0);
-background-image: linear-gradient(
-to bottom,
-    rgba(50, 50, 50, 1), 
-    rgba(50, 50, 50, 1),   
-    rgba(50, 50, 50, 1),   
-    rgba(225, 250, 250, 1),
-    rgba(225, 250, 250, 0)
-);
+background-color: #777;
+clip-path: url(#artc-curve__vect--up);
+
+background: radial-gradient(circle, rgba(102,102,102,1) 0%, rgba(170,170,170,1) 64%, rgba(119,119,119,1) 100%);
 }
 
 .ggl-btn {
@@ -1199,8 +1194,7 @@ border: 0;
 }
 
 .c2a-mfm:hover {
-background: linear-gradient(#3d3d3d,#3d3d3d);
-border: #DD4326 1px;
+    filter: brightness(120%);
 }
 
 .c2a-mfm-blue:hover {
