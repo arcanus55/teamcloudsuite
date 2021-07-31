@@ -104,8 +104,8 @@ padding: 0 2px;
 position: absolute;
 top: 140px;
 width: 100%;
-font-size: 14px;
-font-family: 'Comfortaa', cursive;
+font-size: 44px;
+font-family: 'Roboto Condensed', sans-serif;
 font-weight: 300;
 text-align: center;
 margin: 4px;
@@ -117,8 +117,8 @@ user-select: none;
 position: absolute;
 top: 220px;
 width: 100%;
-font-size: 10px;
-font-family: 'Comfortaa', cursive;
+font-size: 38px;
+font-family: 'Roboto Condensed', sans-serif;
 font-weight: 300;
 text-align: center;
 margin: 4px;
@@ -204,15 +204,15 @@ user-select: none;
 @media only screen and (min-width:48.1em) and (max-width:62em){/* med */
 .l-capt__vect img {width: 66px;}
 /* Hero Caption Begin */
-.hero-caption { font-size: 28px; }
-.hero-caption-2 { font-size: 20px; }
+.hero-caption { font-size: 22px; }
+.hero-caption-2 { font-size: 12px; }
 /* Hero Caption End */
 }
 @media only screen and (min-width:62.1em){/* lg */
 .l-capt__vect img {width: 88px;}
 /* Hero Caption Begin */
-.hero-caption { font-size: 28px; }
-.hero-caption-2 { font-size: 20px; }
+.hero-caption { font-size: 40px; }
+.hero-caption-2 { font-size: 33px; }
 /* Hero Caption End */
 }
 /* Caption Vivid Vect end */
@@ -408,6 +408,19 @@ max-width: 1280px;
 margin: 0 auto;
 display: block;
 }
+
+.hero-product {
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 10px,
+      rgba(0, 0, 0, 0.3) 10px,
+      rgba(0, 0, 0, 0.3) 20px
+    ),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png);
+  }
+
+
 /* Hero img end */
 
 /*  Hero Zoom Desktop begin */
@@ -568,18 +581,30 @@ section.pfmf-grid__33_33_33  { grid-template-columns: 100%; }
 background-color: #ffffff;
 }
 
-
 section.pfmf-grid > div > article {
 margin: 6px 4px;
 padding: 4px;
 border: solid 1px #bbb;
 border-top: solid 2px #bbb;
-border-radius: 2px;
+border-radius: 6px;
 box-shadow: 0px 2px 6px -2px rgba(164,164,164,0.6);
 background-color: #FFFAFA;
 }
-section.pfmf-grid > div > article.pfmf-crd--black {
-background-color: #000;
+section.pfmf-grid > div > article > aside {
+    background-color: #fff;
+    margin: 22px 22px;
+    padding: 4px;
+    border: solid 1px #bbb;
+    border-top: solid 2px #bbb;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px -2px rgba(164,164,164,0.6);
+    background-color: #FFFAFA;
+}
+section.pfmf-grid > div > article.pfmf-crd--black { 
+    background-color: #000;
+}
+section.pfmf-grid > div > article.pfmf-crd--darkgray { 
+    background-color: #323232;
 }
 
 section.pfmf-grid > div > article.pfmf-crd--blue {
@@ -607,8 +632,9 @@ margin: 2px -8px -32px;
 background-color: #777;
 clip-path: url(#artc-curve__vect--up);
 
-background: radial-gradient(circle, rgba(102,102,102,1) 0%, rgba(170,170,170,1) 64%, rgba(119,119,119,1) 100%);
+background: radial-gradient(circle, rgba(221, 67, 38, 1) 40%, rgba(250, 112, 69, 1) 90%, rgba(221, 67, 38, 1) 90%);
 }
+
 
 .ggl-btn {
 display: flex;
@@ -814,11 +840,11 @@ text-decoration: none;
 .mm-btn {
 cursor: pointer;
 display: inline;
-margin: 6px; padding: 2px 12px;
+margin: 6px; padding: 6px 12px;
 border-radius: 4px;
 border: solid 1px #FFFAFA;
 font-size: 16px;
-width: 96px;
+width: 112px;
 }
 .mm-btn__login {
 background-color: #DD4326;
@@ -832,7 +858,7 @@ margin-right: 16px;
 @media only screen and (min-width:48.1em) {/* med lg */
 .megamenu .megamenu__grd--top {
     height: 56px; width: 100%;
-    grid-template-columns: 52px 1fr 212px;
+    grid-template-columns: 52px 1fr 262px;
 }
 .megamenu .megamenu__grd-top-btn {
     display: flex;
@@ -902,11 +928,11 @@ color: #484848;
 margin: 4px; padding: 2px;
 font-family: 'Montserrat', sans-serif;
 font-weight: 400;
-font-size: 1.12em;
+font-size: 1em;
 line-height: 1.5;
 }
 .readable__doc--white {
-color: #fff;
+color: #fff !important;
 }
 .readable__caption {
 color: #484848;
@@ -946,7 +972,7 @@ color: #fff;
 margin: 4px; padding: 2px;
 font-family: 'Roboto Condensed', sans-serif;
 font-weight: 300;
-font-size: 1.46em;
+font-size: 40px;
 }
 
 .readable__1stcta {
@@ -1058,7 +1084,7 @@ body[data-pref-scheme='dark'] .mm__link--bottom:hover {
     margin: 4px; padding: 2px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
-    font-size: 2.54em;
+    font-size: 40px;
 }
 .readable__1stcta {
     color: #323232;
@@ -1160,6 +1186,7 @@ max-width: 290px;
 min-width: 260px;
 border-radius: 6px;
 background: linear-gradient(#DD4326,#DD4326);
+box-shadow: 1px 3px 8px rgba(68, 68, 68, 0.3); 
 margin: 16px auto; padding: 12px 8px 20px 8px;
 color: #fff;
 border: 0;

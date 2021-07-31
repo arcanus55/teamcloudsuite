@@ -25,14 +25,5 @@
       <description>How Team Cloud Suite Works</description>
     </item>
     
-    <item>
-      <title>Faq</title>
-      <link>https://www.TeamCloudSuite.com/knowledge-base/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/knowledge-base/</guid>
-      <description>Frequently Asked Questions</description>
-    </item>
-    
   </channel>
 </rss>
