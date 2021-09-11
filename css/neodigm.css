@@ -536,6 +536,7 @@ width: 32%;
 }
 }
 /* brand svg end */
+
 /*  Blog Content Card Begin  */
 .l-blog-crd {
     margin: 6px 4px; padding: 4px;
@@ -579,7 +580,7 @@ width: 32%;
 .l-blog-crd h6 {
     border-top: solid 1px #8a8a8a;
 }
-/*  Blog Content Card End    */
+/* Blog Content Card End */
 
 /* Pan Fried Monkey Fisticufs grid begin */
 section.pfmf-grid {
@@ -609,6 +610,7 @@ section.pfmf-grid__70_30 > div:nth-child(1) { order: 1; }
 section.pfmf-grid__30_70  { grid-template-columns: 100%; }
 section.pfmf-grid__100    { grid-template-columns: 100%; }
 section.pfmf-grid__33_33_33  { grid-template-columns: 100%; }
+section.pfmf-grid__10_40_40_10  { grid-template-columns: 100%; }
 
 .pfmf-bg-white {
 background-color: #ffffff;
@@ -709,6 +711,7 @@ section.pfmf-grid__70_30 > div:nth-child(1) { order: 0; }
 section.pfmf-grid__70_30  { grid-template-columns: 70% 30%; }
 section.pfmf-grid__30_70  { grid-template-columns: 30% 70%; }
 section.pfmf-grid__33_33_33  { grid-template-columns: 33.3% 33.3% 33.4%; }
+section.pfmf-grid__10_40_40_10  { grid-template-columns: 10% 40% 40% 10%; }
 }
 @media only screen and (min-width:62.1em){/* lg */
 section.pfmf-grid--hero {width: 100%;}
@@ -724,6 +727,7 @@ section.pfmf-grid__70_30 > div:nth-child(1) { order: 0; }
 section.pfmf-grid__70_30  { grid-template-columns: 70% 30%; }
 section.pfmf-grid__30_70  { grid-template-columns: 30% 70%; }
 section.pfmf-grid__33_33_33  { grid-template-columns: 33.3% 33.3% 33.4%; }
+section.pfmf-grid__10_40_40_10  { grid-template-columns: 10% 40% 40% 10%; }
 }
 /* Pan Fried Monkey Fisticufs grid end */
 
@@ -1230,6 +1234,7 @@ border-radius: 6px;
 padding: 8px; margin: 8px;
 background-color: #edba08;
 }
+
 .c2a-mfm {
 cursor: pointer;
 font-family: 'Exo 2', sans-serif;
@@ -1237,7 +1242,7 @@ font-size: 21px;
 line-height: 1;
 width: 34%;
 max-width: 290px;
-min-width: 260px;
+min-width: 120px;
 border-radius: 6px;
 background: linear-gradient(#DD4326,#DD4326);
 box-shadow: 1px 3px 8px rgba(68, 68, 68, 0.3); 
@@ -1245,6 +1250,22 @@ margin: 16px auto; padding: 12px 8px 20px 8px;
 color: #fff;
 border: 0;
 }
+
+.c2a-rwd {
+  cursor: pointer;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  width: 20%;
+  max-width: 290px;
+  min-width: 180px;
+  border-radius: 6px;
+  background: linear-gradient(#DD4326,#DD4326);
+  box-shadow: 1px 3px 8px rgba(68, 68, 68, 0.3); 
+  margin: 16px auto; padding: 12px 4px 14px 4px;
+  color: #fff;
+  border: 0;
+  }
 
 .c2a-mfm-blue {
 cursor: pointer;
