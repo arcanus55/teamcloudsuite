@@ -442,18 +442,6 @@ margin: 0 auto;
 display: block;
 }
 
-.hero-product {
-    background: repeating-linear-gradient(
-      45deg,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2) 10px,
-      rgba(0, 0, 0, 0.3) 10px,
-      rgba(0, 0, 0, 0.3) 20px
-    ),
-    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png);
-  }
-
-
 /* Hero img end */
 
 /*  Hero Zoom Desktop begin */
@@ -592,7 +580,7 @@ box-sizing: border-box;
 width: 86%;
 }
 section.pfmf-grid--hero {
-width: 100%;
+width: 99%;
 }
 section.pfmf-grid__25_25_25_25  { grid-template-columns: 100%; }
 section.pfmf-grid__25_25_25_25 > div:nth-child(1) { order: 1; }
@@ -666,7 +654,6 @@ section.pfmf-grid > div > article.pfmf-grid__artc--hero {
 margin: 2px -8px -32px;
 background-color: #777;
 clip-path: url(#artc-curve__vect--up);
-
 background: radial-gradient(circle, rgba(221, 67, 38, 1) 40%, rgba(250, 112, 69, 1) 90%, rgba(221, 67, 38, 1) 90%);
 }
 
@@ -698,7 +685,7 @@ width: 100%;
 }
 
 @media only screen and (min-width:48.1em) and (max-width:62em){/* med */
-section.pfmf-grid--hero {width: 100%;}
+section.pfmf-grid--hero {width: 99%;}
 section.pfmf-grid__25_25_25_25 > div:nth-child(1) { order: 0; }
 section.pfmf-grid__25_25_25_25  { grid-template-columns: 50% 50%; }
 section.pfmf-grid__40_60 > div:nth-child(1) { order: 0; }
@@ -714,7 +701,7 @@ section.pfmf-grid__33_33_33  { grid-template-columns: 33.3% 33.3% 33.4%; }
 section.pfmf-grid__10_40_40_10  { grid-template-columns: 10% 40% 40% 10%; }
 }
 @media only screen and (min-width:62.1em){/* lg */
-section.pfmf-grid--hero {width: 100%;}
+section.pfmf-grid--hero {width: 99%;}
 section.pfmf-grid__25_25_25_25 > div:nth-child(1) { order: 0; }
 section.pfmf-grid__25_25_25_25  { grid-template-columns: 25% 25% 25% 25%; }
 section.pfmf-grid__40_60 > div:nth-child(1) { order: 0; }
@@ -1251,13 +1238,18 @@ color: #fff;
 border: 0;
 }
 
-.c2a-rwd {
+.c2a-rwd__long {
+  width: 72% !important;
+  max-width: 324px !important;
+}
+.c2a-rwd__link { display: block; text-decoration: none;}
+.c2a-rwd, .c2a-rwd__link {
   cursor: pointer;
   font-family: 'Exo 2', sans-serif;
   font-size: 18px;
   line-height: 1;
-  width: 20%;
-  max-width: 290px;
+  width: 40%;
+  max-width: 304px;
   min-width: 180px;
   border-radius: 6px;
   background: linear-gradient(#DD4326,#DD4326);
@@ -1392,7 +1384,7 @@ display: none;
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2250&q=80);
+  background-image: url(/img/email_reply_average_leaderboard.webp);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -1412,7 +1404,7 @@ display: none;
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2250&q=80);
+  background-image: url(/img/email_sla_report.webp);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -1430,7 +1422,7 @@ display: none;
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1563461660947-507ef49e9c47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1934&q=80);
+  background-image: url(/img/email_reply_team_dashboard.webp);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
