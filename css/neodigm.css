@@ -335,92 +335,92 @@ transition: all .4s;
 
 /*  Syd Nav Widget begin  */
 .l-sydtab {
-display: block;
-margin: 2px auto;
-background: #FFFAFA;
-width: 100%;
+  display: block;
+  margin: 2px auto;
+  background: #fff;
+  width: 100%;
 }
 .l-sydtab > article {
-display: none;
+  display: none;
 }
 .l-sydtab button {
-cursor: pointer;
-display: grid;
-grid-template-columns: 80px calc(100% - 80px);
-grid-column-gap: 12px;
-align-items: center;
-border: solid 1px #aaa; border-radius: 16px;
-font-size: .8em;
-background-color: #FFFAFA;
-margin: 4px; padding: 2px;
-width: 100%; height: 100px;
-user-select: none;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 80px calc(100% - 80px);
+  grid-column-gap: 12px;
+  align-items: center;
+  border: solid 1px #aaa; border-radius: 16px;
+  font-size: .8em;
+  background-color: #FFFAFA;
+  margin: 4px; padding: 2px;
+  width: 100%; height: 100px;
+  user-select: none;
 }
 .l-sydtab button svg {
-margin-top: 4px;
-margin-left: 4px;
-width: 64px;
+  width: 64px;
 }
 .l-sydtab button h6 {
-color: #fff;
-margin: 2px; padding: 6px;
-font-family: 'Montserrat', sans-serif;
-font-weight: 400;
-font-size: 1.12em;
-line-height: 1.5;
+  color: #484848;
+  margin: 2px; padding: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.01em;
+  line-height: 1;
 }
 .l-sydtab button:hover h6 {
-color: #fff;
+  color: #222;
 }
 .l-sydtab button picture {
-display: block;
-border: solid 3px #fff;
-border-radius: 50%;
-background-color: #fff;
-height: 88px; width: 88px;
+  display: block;
+  border: solid 3px #fff;
+  border-radius: 50%;
+  background-color: #fff;
+  height: 84px; width: 84px;
+  transition: 1s ease;
 }
 .l-sydtab button:hover picture {
-border: solid 3px #dedede;
+  background-color:  #Faf2e7;
+  border: solid 3px #F19483;
 }
 .l-sydtab [data-sydtab-state='true'] {
-background-color: #DD4326;
+  background-color:  #Fae2d7;
 }
 .l-sydtab [data-sydtab-state='true'] picture {
-border: solid 3px #DD4326 !important;
+  border: solid 3px #DD4326 !important;
 }
-
 .l-sydtab .cont__mobile--hidden {
-display: none;
+  display: none;
 }
 @media only screen and (min-width:48.1em)
 { /* medium */ /* large */
-.l-sydtab {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin: 0 auto;
-    background: #FFFAFA;
-    width: 100%;
-}
-.l-sydtab > article {
-    display: block;
-    border-radius: 4px;
-    margin: 4px 16px; padding: 6px;
-}
-.l-sydtab button {
-    cursor: pointer;
-    display: grid;
-    grid-template-columns: 80px calc(100% - 80px);
-    align-items: center;
-    border: solid 1px #fff; border-radius: 16px 0 0 16px;
-    font-size: 1.1em;
-    background-color: #a57069;
-    margin: 4px; padding: 2px;
-    width: 100%; height: 100px;
-    user-select: none;
-}
-.l-sydtab .cont__mobile {
-    display: none;
-}
+  .l-sydtab {
+      display: grid;
+      grid-template-columns: 40% 60%;
+      margin: 0 auto;
+      background: #fff;
+      width: 100%;
+  }
+  .l-sydtab > article {
+      display: block;
+      border-radius: 0 16px 16px 0;
+      margin: 5px 0; padding: 6px;
+      background-color:  #Fae2d7;
+  }
+  .l-sydtab button {
+      cursor: pointer;
+      display: grid;
+      grid-template-columns: 80px calc(100% - 80px);
+      align-items: center;
+      border: solid 1px #fff; border-radius: 16px 0 0 16px;
+      font-size: 1.1em;
+      background-color: #FFFAFA;
+      margin: 4px; padding: 2px;
+      width: 100%; height: 100px;
+      user-select: none;
+  }
+  .l-sydtab .cont__mobile {
+      display: none;
+  }
 }
 /*  Syd Nav Widget end  */
 
@@ -974,7 +974,7 @@ line-height: 1.5;
     font-weight: 400;
     font-size: 1em;
     line-height: 1.5;
-    }
+}
 
 .readable__doc--white {
 color: #fff !important;

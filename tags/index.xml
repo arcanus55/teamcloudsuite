@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 May 2021 19:08:49 -0500</lastBuildDate><atom:link href="https://www.TeamCloudSuite.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HIPPA Compliance</title>
-      <link>https://www.TeamCloudSuite.com/tags/hippa-compliance/</link>
+      <title>HIPAA Compliance</title>
+      <link>https://www.TeamCloudSuite.com/tags/hipaa-compliance/</link>
       <pubDate>Fri, 28 May 2021 19:08:49 -0500</pubDate>
       
-      <guid>https://www.TeamCloudSuite.com/tags/hippa-compliance/</guid>
+      <guid>https://www.TeamCloudSuite.com/tags/hipaa-compliance/</guid>
       <description></description>
     </item>
     
@@ -148,114 +148,6 @@
       <pubDate>Mon, 07 Dec 2020 20:26:54 -0600</pubDate>
       
       <guid>https://www.TeamCloudSuite.com/tags/wcag/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Accelerometer API</title>
-      <link>https://www.TeamCloudSuite.com/tags/accelerometer-api/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/accelerometer-api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Audio API</title>
-      <link>https://www.TeamCloudSuite.com/tags/audio-api/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/audio-api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blender</title>
-      <link>https://www.TeamCloudSuite.com/tags/blender/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/blender/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://www.TeamCloudSuite.com/tags/git/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>glTF</title>
-      <link>https://www.TeamCloudSuite.com/tags/gltf/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/gltf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HTML canvas</title>
-      <link>https://www.TeamCloudSuite.com/tags/html-canvas/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/html-canvas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NPM</title>
-      <link>https://www.TeamCloudSuite.com/tags/npm/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/npm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Three.js</title>
-      <link>https://www.TeamCloudSuite.com/tags/three.js/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/three.js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UV Mapping</title>
-      <link>https://www.TeamCloudSuite.com/tags/uv-mapping/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/uv-mapping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Crypto API</title>
-      <link>https://www.TeamCloudSuite.com/tags/web-crypto-api/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/web-crypto-api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WebGL</title>
-      <link>https://www.TeamCloudSuite.com/tags/webgl/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/webgl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Webpack</title>
-      <link>https://www.TeamCloudSuite.com/tags/webpack/</link>
-      <pubDate>Mon, 02 Nov 2020 09:51:37 -0600</pubDate>
-      
-      <guid>https://www.TeamCloudSuite.com/tags/webpack/</guid>
       <description></description>
     </item>
     
